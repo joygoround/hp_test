@@ -1,198 +1,199 @@
 body {
-	font-family: sans-serif;
-	background-color: #ffffff;
+    font-family: sans-serif;
+    background-color: #ffffff;
 }
 
-.result-message{
-	color: #6610f2;
-	font-size: 1.5rem;
-	
+.result-message {
+    color: #6610f2;
+    font-size: 1.5rem;
 }
 
-
+.lable-container {
+    font-size: 1rem;
 }
-.lable-container{
-	font-size: 1rem;
-}
-
-
-
 
 .file-upload {
-	background-color: #ffffff;
-	width: 600px;
-	margin: 0 auto;
-	padding: 20px;
+    background-color: #ffffff;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
 }
 .file-upload-btn {
-	width: 100%;
-	margin: 0;
-	color: #fff;
-	background: #1fb264;
-	border: none;
-	padding: 10px;
-	border-radius: 4px;
-	border-bottom: 4px solid #15824b;
-	transition: all 0.2s ease;
-	outline: none;
-	text-transform: uppercase;
-	font-weight: 700;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #1fb264;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #15824b;
+    transition: all 0.2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .file-upload-btn:hover {
-	background: #1aa059;
-	color: #ffffff;
-	transition: all 0.2s ease;
-	cursor: pointer;
+    background: #1aa059;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
 }
 .file-upload-btn:active {
-	border: 0;
-	transition: all 0.2s ease;
+    border: 0;
+    transition: all 0.2s ease;
 }
 .file-upload-content {
-	display: none;
-	text-align: center;
+    display: none;
+    text-align: center;
 }
 .file-upload-input {
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-	outline: none;
-	opacity: 0;
-	cursor: pointer;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
 }
 .image-upload-wrap {
-	border: 4px dashed #1fb264;
-	position: relative;
-	object-fit: contain;
-	border-radius: 10px;
-	border: dashed 2px #35465d;
-	background-color: #ffffff;
+    border: 4px dashed #1fb264;
+    position: relative;
+    object-fit: contain;
+    border-radius: 10px;
+    border: dashed 2px #35465d;
+    background-color: #ffffff;
 }
 .image-dropping,
 .image-upload-wrap:hover {
-	background-color: #35465d;
-	border: 2px dashed #ffffff;
+    background-color: #35465d;
+    border: 2px dashed #ffffff;
 }
 .image-title-wrap {
-	padding: 0 15px 15px 15px;
-	color: #222;
+    padding: 0 15px 15px 15px;
+    color: #222;
 }
 .drag-text {
-	text-align: center;
+    text-align: center;
 }
 .drag-text h3 {
-	width: 50%;
-	font-weight: 100;
-	text-transform: uppercase;
-	color: #15824b;
+    width: 50%;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #15824b;
 
-	font-family: NanumSquareR;
-	font-size: 1.6rem;
-	line-height: 1.53;
-	text-align: center;
-	color: #35465d;
-	margin: 0 auto;
+    font-family: NanumSquareR;
+    font-size: 1.6rem;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+    margin: 0 auto;
 }
 .file-upload-image {
-	max-height: 200px;
-	max-width: 200px;
-	margin: auto;
-	padding: 20px;
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    padding: 20px;
 }
 .remove-image {
-	width: 200px;
-	margin: 0;
-	color: #fff;
-	background: #cd4535;
-	border: none;
-	padding: 10px;
-	border-radius: 4px;
-	border-bottom: 4px solid #b02818;
-	transition: all 0.2s ease;
-	outline: none;
-	text-transform: uppercase;
-	font-weight: 700;
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all 0.2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .remove-image:hover {
-	background: #c13b2a;
-	color: #ffffff;
-	transition: all 0.2s ease;
-	cursor: pointer;
-	border-radius: 40px;
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border-radius: 40px;
 }
 .remove-image:active {
-	border: 0;
-	transition: all 0.2s ease;
+    border: 0;
+    transition: all 0.2s ease;
 }
 .nav-distance {
-	padding: 2% 8%;
+    padding: 2% 8%;
 }
 .navbar-brand .navbar-light {
-	font-family: NanumSquareR;
-	line-height: 1.68;
-	text-align: left;
-	color: #35465d;
+    font-family: NanumSquareR;
+    line-height: 1.68;
+    text-align: left;
+    color: #35465d;
 }
 .navbar-light .navbar-toggler {
-	border-color: #f8f9fa !important;
+    border-color: #f8f9fa !important;
 }
-.section {
+/* .section {
 	margin-top: 100px;
+} */
+.section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 0.8;
+    font-weight: bold;
 }
 .title {
-	font-family: NanumSquareR;
-	line-height: 1.67;
-	text-align: center;
-	color: #17a2b8;
+    font-family: NanumSquareR;
+    line-height: 1.67;
+    text-align: center;
+    color: #17a2b8;
+    font-weight: bold;
 }
 
 .subtitle {
-	font-family: NanumSquareR;
-	line-height: 1.53;
-	text-align: center;
-	color: #35465d;
-	
+    font-family: NanumSquareR;
+    line-height: 1.53;
+    text-align: center;
+    color: #35465d;
+
     margin-top: 5%;
     margin-bottom: 5%;
-
+    font-weight: bold;
 }
 
-.mainposter{
-	text-align: center;
-	
+.mainposter {
+    text-align: center;
 }
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
-	html {
-		font-size: 10px;
-	}
-	.navbar-brand {
-		font-size: 2rem;
-	}
+    html {
+        font-size: 10px;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
 }
 .velog-link {
-	font-family: NanumSquareR;
-	font-size: 1.5rem;
-	line-height: 1.71;
-	text-align: center;
-	color: #f73737;
-	text-decoration: underline;
+    font-family: NanumSquareR;
+    font-size: 1.5rem;
+    line-height: 1.71;
+    text-align: center;
+    color: #f73737;
+    text-decoration: underline;
 }
 
 .icon {
-	width: 6%;
+    width: 6%;
 }
 
 .file-upload {
-	padding: 13% 0;
-	width: 914px;
+    padding: 13% 0;
+    width: 914px;
 
-	border-radius: 10px;
-	border: solid 1.5px #f6f7fa;
-	background-color: #f6f7fa;
+    border-radius: 10px;
+    border: solid 1.5px #f6f7fa;
+    background-color: #f6f7fa;
 }
-
-	
